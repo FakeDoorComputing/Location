@@ -33,7 +33,7 @@ function successPosition(position) {
 	var latitude = position.coords.latitude;
 	var longitude=position.coords.longitude;
 	var altitude=position.coords.altitude;
-	var heading=position.coords.heading;
+	//var heading=position.coords.heading;
 	var time=new Date(timestamp);
 
 	//OK. Now we want to update the display with the correct values
@@ -41,7 +41,7 @@ function successPosition(position) {
 	$('#lattext').val(latitude);
 	$("#longtext").val(longitude);
 	$("#alttext").val(altitude);
-	$("#headtext").val(heading);
+	//$("#headtext").val(heading);
 
 }
 
